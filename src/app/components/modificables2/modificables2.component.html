@@ -1,0 +1,32 @@
+<table class="table mt-50">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Imagen</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr *ngFor="let producto of productos;">
+          <td>{{producto.id}}</td>
+          <td>{{producto.nombre}}</td>
+          <td>${{producto.precio}}</td>
+          <td>{{producto.stock}}</td>
+          <td>
+            <img [src]="producto.imagen" alt="{{producto.nombre}}" class="table-image">
+          </td>
+          <td>
+            <button (click)="agregarAlCarrito(producto)" [disabled]="producto.stock === 0" id="btn1">
+              Añadir
+            </button>
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  

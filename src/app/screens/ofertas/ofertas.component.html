@@ -1,0 +1,23 @@
+<div class="page-container">
+    <h1>Nuestros Productos</h1>
+    <p>Explora nuestra variedad de productos de alta calidad.</p>
+    <button class="btn btn-danger position-absolute top-0 end-0 m-2" id="btn3" (click)="logout()">Cerrar</button>
+
+    <ng-container *ngIf="vista === false; else mostrarOtraVista">
+        <app-carrusel1></app-carrusel1>
+        <app-table></app-table>
+      </ng-container>
+      
+      <ng-template #mostrarOtraVista>
+        <app-carrusel2></app-carrusel2>
+        <app-table2></app-table2>
+      </ng-template>
+    
+
+    <div class="buttons">
+      <a routerLink="/home" class="btn">Volver al Inicio</a>
+      <a routerLink="/nosotros" class="btn btn-secondary">Sobre Nosotros</a>
+      <button (click)="cambio()" class="btn" id="btn2">Mas Productos</button>
+    </div>
+
+</div>

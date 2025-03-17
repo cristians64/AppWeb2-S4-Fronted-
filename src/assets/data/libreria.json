@@ -1,0 +1,82 @@
+{
+  "autores": [
+    {
+      "id": 1,
+      "nombre": "Miguel",
+      "apellido": "Paz",
+      "email": "mpaz@yop.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana",
+      "apellido": "Gómez",
+      "email": "agomez@ejemplo.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellido": "Rodríguez",
+      "email": "crodriguez@dominio.com"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura",
+      "apellido": "García",
+      "email": "lgarcia@ejemplo.com"
+    },
+    {
+      "id": 5,
+      "nombre": "Alejandro",
+      "apellido": "Martínez",
+      "email": "amartinez@dominio.com"
+    },
+    {
+      "id": 6,
+      "nombre": "Isabel",
+      "apellido": "López",
+      "email": "ilopez@yop.com"
+    },
+    {
+      "id": 7,
+      "nombre": "Javier",
+      "apellido": "Hernández",
+      "email": "jhernandez@ejemplo.com"
+    },
+    {
+      "id": 8,
+      "nombre": "Carmen",
+      "apellido": "Díaz",
+      "email": "cdiaz@dominio.com"
+    },
+    {
+      "id": 9,
+      "nombre": "Roberto",
+      "apellido": "Sánchez",
+      "email": "rsanchez@yop.com"
+    },
+    {
+      "id": 10,
+      "nombre": "Sofía",
+      "apellido": "Ramírez",
+      "email": "sramirez@ejemplo.com"
+    },
+    {
+      "id": 11,
+      "nombre": "Luis",
+      "apellido": "Gutiérrez",
+      "email": "lgutierrez@dominio.com"
+    },
+    {
+      "id": 12,
+      "nombre": "Elena",
+      "apellido": "Ortega",
+      "email": "eortega@yop.com"
+    },
+    {
+      "id": 13,
+      "nombre": "Juan",
+      "apellido": "Navarro",
+      "email": "jnavarro@ejemplo.com"
+    }
+  ]
+}
